@@ -1,6 +1,4 @@
-<a href="https://vitormalencar.com/dot"><img width="100%" src="https://vitormalencar.com/dot/artwork.png" alt="lorem"></a>
-
-> lorem
+<a href="https://vitormalencar.com"><img width="100%" src="https://raw.githubusercontent.com/vitormalencar/dot/master/artwork.png" alt="lorem"></a>
 
 > [description]
 
