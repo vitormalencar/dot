@@ -1,4 +1,4 @@
-<a href="https://vitormalencar.com/initify"><img width="100%" src="https://vitormalencar.com/initify/artwork.png" alt="lorem"></a>
+<a href="https://vitormalencar.com/dot"><img width="100%" src="https://vitormalencar.com/dot/artwork.png" alt="lorem"></a>
 
 > lorem
 
