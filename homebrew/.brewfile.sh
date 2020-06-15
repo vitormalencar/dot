@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VitorAlencar 🍺 Brewfile
+# Vitormalencar 🍺 Brewfile
 echo ----------------------------------
 echo Install all AppStore Apps at first! 🚨
 echo ----------------------------------
@@ -114,7 +114,7 @@ brew cask install webpquicklook
 brew cask install quicklook-json
 brew cask install quicklookase qlvideo
 
-# cleanup
+# Cleanup
 echo ----------------------------------
 echo Cleaning directories 🗑
 echo ----------------------------------
@@ -122,7 +122,7 @@ echo ----------------------------------
 brew cleanup
 rm -f -r /Library/Caches/Homebrew/*
 
-# node development packages
+# Node development packages
 echo ----------------------------------
 echo instaling npm global dependencies
 echo ----------------------------------
