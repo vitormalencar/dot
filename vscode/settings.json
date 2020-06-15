@@ -1,0 +1,71 @@
+{
+	// Editor changes
+	"editor.tabSize": 2,
+	"editor.rulers": [80],
+	"editor.fontSize": 16,
+	"editor.lineHeight": 25,
+	"editor.cursorWidth": 5,
+	"editor.fontWeight": "400",
+	"editor.letterSpacing": 0.2,
+	"editor.insertSpaces": true,
+	"editor.fontLigatures": true,
+	"editor.cursorStyle": "line",
+	"editor.formatOnPaste": true,
+	"editor.minimap.enabled": false,
+	"editor.cursorBlinking": "blink",
+	"editor.roundedSelection": false,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.occurrencesHighlight": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.fontFamily": "Jetbrains mono, Menlo, Monaco, 'Courier New', monospace",
+
+	// Explorer
+	"explorer.openEditors.visible": 0,
+	"explorer.decorations.colors": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Workbench
+	"workbench.colorTheme": "Cobalt2",
+	"workbench.startupEditor": "none",
+	"workbench.editor.showIcons": false,
+	"workbench.activityBar.visible": false,
+	"workbench.iconTheme": "material-icon-theme",
+
+	// Terminal
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.rendererType": "dom",
+
+	// Emmet
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.syntaxProfiles": { "javascript": "jsx" },
+	"emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+	// Javascrip TypeScript
+	"eslint.enable": true,
+	"javascript.validate.enable": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	// General
+	"git.autofetch": true,
+	"window.zoomLevel": 0,
+	"python.jediEnabled": false,
+	"breadcrumbs.enabled": false,
+	"extensions.autoUpdate": false,
+	"npm.enableScriptExplorer": true,
+	"atomKeymap.promptV3Features": true,
+	"files.trimTrailingWhitespace": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"files.exclude": { ".cache": true, ".vscode": true },
+
+	// Language Editor Formater
+	"[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+}
