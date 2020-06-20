@@ -637,6 +637,10 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/Desktop/
 # Tell iTerm2 to use the custom preferences in the directory
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
+# Disable resize in increments of character widths
+defaults write com.googlecode.iterm2 DisableWindowSizeSnap -integer 1
+
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
