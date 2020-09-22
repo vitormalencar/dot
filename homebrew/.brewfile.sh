@@ -129,6 +129,7 @@ echo ----------------------------------
 
 npm i -g surge
 npm i -g ngrok
+npm i -g oclif
 npm i -g eslint
 npm i -g fixpack
 npm i -g npm-check
