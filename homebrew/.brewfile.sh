@@ -45,6 +45,7 @@ brew install graphviz
 
 # General
 brew install z
+brew install gh
 brew install git
 brew install vim
 brew install zsh
