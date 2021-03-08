@@ -82,6 +82,7 @@ brew install --cask --appdir="/Applications" firefox
 brew install --cask --appdir="/Applications" caffeine
 brew install --cask --appdir="/Applications" 1password
 brew install --cask --appdir="/Applications" rectangle
+brew install --cask --appdir="/Applications" 1password-cli
 brew install --cask --appdir="/Applications" google-chrome
 brew install --cask --appdir="/Applications" the-unarchiver
 brew install --cask --appdir="/Applications" android-file-transfer
@@ -116,8 +117,7 @@ brew install webpquicklook
 brew install quicklook-json
 brew install suspicious-package
 
-brew install --cask 1password-cli
-brew install --cask 1password
+
 
 # Cleanup
 echo ----------------------------------
