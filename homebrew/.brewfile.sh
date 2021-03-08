@@ -73,21 +73,19 @@ echo ----------------------------------
 echo Installing personal Applications 👩‍🚀
 echo ----------------------------------
 
-brew cask install --appdir="/Applications" vlc
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" dozer
-brew cask install --appdir="/Applications" setapp
-brew cask install --appdir="/Applications" notion
-brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" caffeine
-brew cask install --appdir="/Applications" polymail
-brew cask install --appdir="/Applications" rectangle
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" the-unarchiver
-brew cask install --appdir="/Applications" suspicious-package
-brew cask install --appdir="/Applications" android-file-transfer
-brew cask install --appdir="/Applications" google-backup-and-sync
+brew install --cask --appdir="/Applications" vlc
+brew install --cask --appdir="/Applications" skype
+brew install --cask --appdir="/Applications" setapp
+brew install --cask --appdir="/Applications" notion
+brew install --cask --appdir="/Applications" spotify
+brew install --cask --appdir="/Applications" firefox
+brew install --cask --appdir="/Applications" caffeine
+brew install --cask --appdir="/Applications" 1password
+brew install --cask --appdir="/Applications" rectangle
+brew install --cask --appdir="/Applications" google-chrome
+brew install --cask --appdir="/Applications" the-unarchiver
+brew install --cask --appdir="/Applications" android-file-transfer
+brew install --cask --appdir="/Applications" google-backup-and-sync
 
 # Development apps
 echo ----------------------------------
@@ -104,16 +102,19 @@ echo ----------------------------------
 echo installing all Quick look Plugins 🔍
 echo ----------------------------------
 
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install qlcolorcode
-brew cask install betterzipql
-brew cask install qlimagesize
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install webpquicklook
-brew cask install quicklook-json
-brew cask install quicklookase qlvideo
+brew install qlvideo
+brew install apparency
+brew install qlstephen
+brew install qlmarkdown
+brew install qlcolorcode
+brew install betterzipql
+brew install qlimagesize
+brew install quicklookase
+brew install qlprettypatch
+brew install quicklook-csv
+brew install webpquicklook
+brew install quicklook-json
+brew install suspicious-package
 
 brew install --cask 1password-cli
 brew install --cask 1password
