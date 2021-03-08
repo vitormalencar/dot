@@ -115,6 +115,9 @@ brew cask install webpquicklook
 brew cask install quicklook-json
 brew cask install quicklookase qlvideo
 
+brew install --cask 1password-cli
+brew install --cask 1password
+
 # Cleanup
 echo ----------------------------------
 echo Cleaning directories 🗑
