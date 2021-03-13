@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-#brew Core install
+brew Core install
 echo ----------------------------------
 echo Prepare Brew binares 🍻
 echo ----------------------------------
@@ -16,7 +14,6 @@ echo installing Core packages 📦
 echo ----------------------------------
 
 brew install mas
-brew install tldr
 brew install vim
 brew install wget
 brew install grep
@@ -28,7 +25,6 @@ brew install z
 brew install gh
 brew install git
 brew install vim
-brew install zsh
 brew install nvm
 brew install tmux
 brew install node
@@ -62,6 +58,7 @@ brew install --cask --appdir="/Applications" firefox
 brew install --cask --appdir="/Applications" caffeine
 brew install --cask --appdir="/Applications" 1password
 brew install --cask --appdir="/Applications" rectangle
+brew install --cask --appdir="/Applications" 1password-cli
 brew install --cask --appdir="/Applications" google-chrome
 brew install --cask --appdir="/Applications" the-unarchiver
 brew install --cask --appdir="/Applications" android-file-transfer
@@ -75,6 +72,7 @@ echo ----------------------------------
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" postman
+brew cask install --appdir="/Applications" sublime-merge
 brew cask install --appdir="/Applications" visual-studio-code
 
 echo ----------------------------------
