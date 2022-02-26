@@ -73,31 +73,31 @@ echo ----------------------------------
 echo Installing personal Applications 👩‍🚀
 echo ----------------------------------
 
-brew install --cask --appdir="/Applications" vlc
-brew install --cask --appdir="/Applications" skype
-brew install --cask --appdir="/Applications" setapp
-brew install --cask --appdir="/Applications" notion
-brew install --cask --appdir="/Applications" spotify
-brew install --cask --appdir="/Applications" firefox
-brew install --cask --appdir="/Applications" caffeine
-brew install --cask --appdir="/Applications" 1password
-brew install --cask --appdir="/Applications" rectangle
-brew install --cask --appdir="/Applications" 1password-cli
-brew install --cask --appdir="/Applications" google-chrome
-brew install --cask --appdir="/Applications" the-unarchiver
-brew install --cask --appdir="/Applications" android-file-transfer
-brew install --cask --appdir="/Applications" google-backup-and-sync
+brew install --cask vlc
+brew install --cask skype
+brew install --cask setapp
+brew install --cask notion
+brew install --cask spotify
+brew install --cask firefox
+brew install --cask caffeine
+brew install --cask 1password
+brew install --cask rectangle
+brew install --cask 1password-cli
+brew install --cask google-chrome
+brew install --cask the-unarchiver
+brew install --cask android-file-transfer
+brew install --cask google-backup-and-sync
 
 # Development apps
 echo ----------------------------------
 echo Installing Development Apps 💻
 echo ----------------------------------
 
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" postman
-brew cask install --appdir="/Applications" sublime-merge
-brew cask install --appdir="/Applications" visual-studio-code
+brew install --cask slack
+brew install --cask iterm2
+brew install --cask postman
+brew install --cask topnotch
+brew install --cask visual-studio-code
 
 echo ----------------------------------
 echo installing all Quick look Plugins 🔍
@@ -116,8 +116,6 @@ brew install quicklook-csv
 brew install webpquicklook
 brew install quicklook-json
 brew install suspicious-package
-
-
 
 # Cleanup
 echo ----------------------------------
