@@ -36,12 +36,12 @@ brew upgrade
 echo ----------------------------------
 echo installing Core packages 📦
 echo ----------------------------------
-
 brew install vim
 brew install wget
 brew install grep
 brew install screen
 brew install graphviz
+brew tap homebrew/cask-fonts
 
 # General
 brew install z
@@ -56,6 +56,7 @@ brew install yarn
 brew install tree
 brew install gnupg
 brew install ngrep
+brew install gotop
 brew install ctags
 brew install mackup
 brew install openssl
@@ -98,6 +99,8 @@ brew install --cask iterm2
 brew install --cask postman
 brew install --cask topnotch
 brew install --cask visual-studio-code
+brew install --cask font-jetbrains-mono
+
 
 echo ----------------------------------
 echo installing all Quick look Plugins 🔍
